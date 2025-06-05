@@ -23,7 +23,7 @@ window.addEventListener('scroll', function () {
 // Skill Section
  const skillsData = {
   "programming": [ "C","Java", "Python",  "JavaScript", "HTML", "CSS", "React","MySQL", "Bootstrap" ],
-  "ds-ml": ["AI", "Colab" , "ChatGPT" , "TensorFlow", "Streamlit","Keras"],
+  "ds-ml": ["AI", "Colab" , "ChatGPT" ,"Cursor AI", "TensorFlow", "Streamlit","Keras"],
   "tools": ["Jupyter Notebook", "Visual Studio Code",  "Git", "GitHub","Vercel"]
 };
 
