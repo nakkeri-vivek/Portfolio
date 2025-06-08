@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/png" href="ic.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+       <a class="logo" href="#">Portfolio</a> 
+        <div class="nav-links">
+            
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hey there!</h1>
+            <h2>I'm<span class="highlight">NAKKERI VIVEK</span></h2>
+            <div class="typed-text"><span id="typed"></span></div>
+            <div class="description">
+                <p>Beginner in AI, ML, and development with hands-on experience in predictive modeling.</p>
+                <p>Passionate about solving real-world problems, especially around accessibility.</p>
+                <p>Always learning, building, and looking to make a meaningful impact.</p>
+            </div>
+            <div class="cta-buttons">
+                <a href="Vivek-Resume.pdf" download class="btn primary-btn">Resume</a>
+                <a href="#projects" class="btn secondary-btn">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="homepic.svg" alt="Developer Illustration">
+            </div>
+            <div class="about-text-container">
+                <div class="about-header">
+                    <span class="emoji">👨‍💻</span>
+                    <h2>About <span class="text-gray">Me</span></h2>
+                </div>
+                <div class="about-text">
+                    <p>Hey! I'm <span class="highlight">Nakkeri Vivek</span>. I'm really into building websites and diving into AI and machine learning. I'm studying B.Tech in Artificial Intelligence & Machine Learning at <span class="highlight">G. Pulla Reddy Engineering College</span>, where I get to explore both coding and smart tech.</p>
+                    
+                    <p>I've worked with <span class="highlight">Java, Python, C</span>, and <span class="highlight">JavaScript</span> on projects like AI tools for farming and e-commerce sites. Right now, I'm interning at <span class="highlight">Web Blinders</span>, where I'm lucky to learn from awesome developers while helping build user-friendly, scalable apps.</p>
+                    
+                    <p>In AI/ML, I've built models using <span class="highlight">TensorFlow</span> and <span class="highlight">Scikit-learn</span> — including a CNN that spots potato leaf diseases with 92% accuracy. I love using tools like <span class="highlight">React</span> and <span class="highlight">MySQL</span> to turn tricky problems into clean, easy-to-use solutions.</p>
+                    
+                    <p>I'm always excited to learn, team up with others, and create tech that actually makes a difference.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2 class="section-title">Education</h2>
+        <div class="education-timeline">
+            <div class="education-item">
+                <h3>Bachelor of Technology (AI & ML)</h3>
+                <h4>G Pulla Reddy Engineering College</h4>
+                <p class="date">2022 - 2026</p>
+                <p class="grade">Aggregate: 81%</p>
+            </div>
+            <div class="education-item">
+                <h3>Intermediate</h3>
+                <h4>New Sri Chaitanya Jr College</h4>
+                <p class="date">2020 - 2022</p>
+                <p class="grade">Aggregate: 98%</p>
+            </div>
+            <div class="education-item">
+                <h3>SSC</h3>
+                <h4>Zilla Parishad High School, Nagilla</h4>
+                <p class="date">2019 - 2020</p>
+                <p class="grade">Aggregate: 95%</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="skill-title section-title">Skills</h2>
+        <div class="skill-box" id="skill-box-id">
+                <div class="skill-header" id="skill-header-id">
+                    <button data-category="programming" class="pro-web-btn skill-btns hover-btn">Programming & Web Technologies</button>
+                    <button data-category="ds-ml" class="ds-ml-btn skill-btns hover-btn">Data Science & Machine Learninig</button>
+                    <button data-category="tools" class="tools-btn skill-btns hover-btn">Tools & Other Skills</button>
+
+                </div>
+
+                <div class="skill-data" id="skill-container">
+
+                </div>
+        </div>
+
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Software Engineer Intern</h3>
+                    <h4>YugaYatra Retail(OPC) Pvt. Ltd.</h4>
+                    <p class="date">June 2025 - Present</p>
+                    <p>Developing an LMS website (thebrightlearn.in) using WordPress and creating digital designs with Canva and contributing to live freelance projects on Upwork and assisting with seller portals on Amazon and Flipkart.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Web Developer</h3>
+                    <h4>Web Blinders</h4>
+                    <p class="date">May - June 2025</p>
+                    <p>Collaborated with senior developers to create responsive and interactive user interfaces and improved application performance and user experience through feature enhancements and debugging.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Machine Learning Intern</h3>
+                    <h4>Edunet Foundation</h4>
+                    <p class="date">Jan - March 2025</p>
+                    <p>Built a CNN-based image classification model to detect potato leaf diseases with 92% accuracy.</p>
+                    <p>Preprocessed and augmented over 900 images to improve training efficiency and model generalization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <!-- <div class="project-image">
+                    <img src="project1-2.png" alt="Project 1">
+                </div> -->
+                <div class="project-info">
+                    <h3>Project Name</h3>
+                    <p>This project uses machine learning and computer vision to detect diseases in potato leaves, helping farmers take early action.</p>
+                    <p>A CNN model classifies leaf images to identify issues like late blight, early blight, and other infections.</p>
+                    <p>It aims to reduce crop loss by providing fast, image-based disease diagnosis.</p>
+                    <div class="project-skills">
+                        <p>TensorFlow</p>
+                        <p>Python</p>
+                        <p>Keras</p>
+                        <p>Streamlit</p>
+                        <p>CNN</p>
+                    </div>
+
+                    <div class="project-links">
+                       
+                        <a href="https://github.com/nakkeri-vivek/CropCure-PotatoEdition.git" class="btn">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <!-- <div class="project-image">
+                    <img src="project2-1.png" alt="Project 2">
+                </div> -->
+                <div class="project-info">
+                    <h3>Personal Portfolio</h3>
+                    <p>This personal portfolio website showcases my journey, projects, and passion for technology through a clean, responsive design.</p>
+                    <p>It features animated text, interactive project cards, and organized sections like About Me, Projects, and Contact.</p>
+                    <p>Built for a smooth user experience, it serves as my professional digital presence to connect and share my work.</p>                  
+                    <div class="project-skills">
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                        <p>Git</p>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn">Live Demo</a>
+                        <a href="#" class="btn">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Certicication -->
+    <section id="certificates" class="certificates">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certificates-grid">
+            <div class="certificate-card">
+                <h3>Data Visualization: Empowering Business with Effective Insights</h3>
+                <p class="issuer">TATA & Forage</p>
+            </div>
+            <div class="certificate-card">
+                <h3>Introduction to Web Development with HTML5, CSS3, and JavaScript</h3>
+                <p class="issuer">edX & IBM</p>
+            </div>
+            <div class="certificate-card">
+                <h3>Python Programming: Basic Skills, Intermediate</h3>
+                <p class="issuer">Codio</p>
+            </div>
+            <div class="certificate-card">
+                <h3>Java Programming</h3>
+                <p class="issuer">Infosys Springboard</p>
+            </div>
+            <div class="certificate-card">
+                <h3>Google AI for Anyone</h3>
+                <p class="issuer">edX & Google</p>
+            </div>
+            <div class="certificate-card">
+                <h3>Machine Learning</h3>
+                <p class="issuer">NPTEL</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+                <form class="contact-form" action="https://formsubmit.co/viveknakker@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+
+                <!-- Optional Hidden Fields -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html">
+
+                <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/nakkeri-vivek" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/nakkeri-vivek/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/vivvek__" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/vivek_nakkeri/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="footer-text">
+                <p>&copy; 2025 Nakkeri Vivek. All rights reserved.</p>
+               
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
